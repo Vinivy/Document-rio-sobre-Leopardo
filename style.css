@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+/*------------------------------------BARRA LATERAL----------------------------------------------*/
+#left-border{
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+
+  width: fit-content;
+  height: 100vh;
+  float: left;
+}
+
+.img-1 {
+  display: block;
+  border-top-left-radius: 15px;
+
+  width: 100px;
+  height: 100px;
+}
+
+.left-social a {
+  display: flex;
+  padding: 10px;
+  margin-left: 25px;
+  margin-right: 10px;
+  
+}
+
+.left-social {
+  display: flex;
+  margin-top: 300px;
+}
+
+/*-------------------------------BARRA SUPERIOR--------------------------------------------------*/
+
+#nav {
+  display: flex;
+}
+
+.logo-name {
+  padding: 17.64px 241.36px 17.64px 102px;
+}
+
+.pag  {
+  display: flex;
+  align-items: center;
+}
+
+.pag a {
+  text-decoration: none;
+  text-decoration-color: black;
+}
+
+.a1 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: black;
+}
+
+.a2 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #929292;
+
+  padding-left: 40px;
+  padding-right: 24px;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  border-radius: 8px;
+  height: 88px;
+  padding-left: 24px ;
+}
+
+.sombra{
+  display: flex;
+  height: 44px;
+  width: 267px;
+  border-radius: 8px;
+  border: solid 1px rgba(0, 0, 0, 0.424);
+}
+
+.sombra svg{
+  margin-top: 10px ;
+  margin-left: 16px;
+  margin-right: 8px;
+}
+
+.conta img{
+  display: flex;
+  padding-left: 229px;
+
+}
+
+input {
+  
+  border: white;
+  height: 44px;
+  border: 0;
+  color: #6D7280;
+  font-family: 'Lexend';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;  
+}
+
+/*onça*/
+#container{
+  display: fixed;
+  width: 1366px;
+  height: 579px;
+}
+
+.onça {
+  background-image: url('./Assents/onça.png') ;
+  background-repeat: no-repeat ;
+  background-size: cover;
+  width: 1366px;
+  height: 579px;
+ 
+}
+
+.onça p {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  text-transform: uppercase;
+  color: #B4B4B4;           
+  padding-top: 99px;
+}
+
+.onça h1 {
+  font-family: 'Baskervville';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+}
