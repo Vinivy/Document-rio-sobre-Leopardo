@@ -122,13 +122,12 @@ input {
 
 /*onça*/
 #container{
-  display: fixed;
   width: 1366px;
   height: 579px;
 }
 
 .onça {
-  background-image: url('./Assents/onça.png') ;
+  background-image: url('./Assents/onçinha.png') ;
   background-repeat: no-repeat ;
   background-size: cover;
   width: 1366px;
@@ -151,4 +150,27 @@ input {
   font-style: normal;
   font-weight: 400;
   font-size: 48px;
+}
+
+.onça h1 {
+  display: flex;
+  padding-left: 93px;
+}
+
+.onça p{
+  display: flex;
+  padding-left: 93px;
+}
+
+.info {
+  display: flex;
+  width: 434.94px;
+  height: 142.05px;
+  padding-left: 93px;
+  padding-top: 21px;
+
+  width: 434.94px;
+  height: 142.05px;
+  font-size: 16px;
+  color: #656565;
 }
