@@ -3,7 +3,10 @@
   padding: 0;
 }
 
-
+body {
+  height: 100vh;
+  width: 100vw;
+}
 
 /*------------------------------------BARRA LATERAL----------------------------------------------*/
 #left-border{
@@ -173,4 +176,44 @@ input {
   height: 142.05px;
   font-size: 16px;
   color: #656565;
+}
+
+/*Botões inferiores*/
+
+.foot_buttons {
+  display: flex;
+  padding-left: 104px;
+  padding-top: 47px;
+}
+
+.bt_yellow {
+  margin-right: 8px;
+  background-color:#FFB800;
+  width: 167px;
+  height: 56px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+}
+
+.bt_yellow a {
+  text-decoration: none;
+  color: #000000;
+  font-family: 'Inter';
+  font-style: normal;
+}
+
+.bt_white {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+}
+
+.bt_white a {
+  text-decoration: none;
+  color: #000000;
+  font-family: 'Inter';
+  font-style: normal;
 }
