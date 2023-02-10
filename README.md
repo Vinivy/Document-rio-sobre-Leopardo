@@ -27,7 +27,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 O Nation Geographic é uma prots de um documentário sobre Leopardo.
 
-- [Acesse o projeto finalizado, online] (https://github.com/Vinivy/NLW)
+- [Acesse o projeto finalizado, online] ( https://vinivy.github.io/Geographic-National/)
 
 ## 🔖 Layout
 
