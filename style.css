@@ -28,6 +28,10 @@ body {
  
 }
 
+#left-border svg {
+  transition: 1s;
+}
+
 #left-border a svg:hover{
   transition: 0.50s;
   height: 39px;
