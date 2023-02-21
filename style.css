@@ -9,7 +9,7 @@ body {
 }
 
 /*------------------------------------BARRA LATERAL----------------------------------------------*/
-#left-border{
+#left-border {
   display: flex;
   flex-direction: column;
   background-color: black;
@@ -239,3 +239,7 @@ input {
 
 /*RESPONSIVEL*/
 
+@media (max-width:400px) {
+  #left-border {
+  }
+}
