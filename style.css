@@ -13,10 +13,25 @@ body {
   display: flex;
   flex-direction: column;
   background-color: black;
-
-  width: fit-content;
   height: 100vh;
   float: left;
+}
+
+#left-border a {
+  border-radius: 50rem;
+  transition: background 1s;
+}
+
+#left-border a:hover {
+  transition: 0.50s;
+  background-color: #4a4444c8;
+ 
+}
+
+#left-border a svg:hover{
+  transition: 0.50s;
+  height: 39px;
+  width: 39px;
 }
 
 .img-1 {
@@ -111,7 +126,7 @@ body {
 }
 
 input {
-  
+  outline: none;
   border: white;
   height: 44px;
   border: 0;
@@ -135,7 +150,7 @@ input {
   background-size: cover;
   width: 1366px;
   height: 579px;
- 
+  z-index: 10;
 }
 
 .onça p {
@@ -217,3 +232,6 @@ input {
   font-family: 'Inter';
   font-style: normal;
 }
+
+/*RESPONSIVEL*/
+
