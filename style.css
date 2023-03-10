@@ -125,8 +125,8 @@ body {
 
 .conta img{
   display: flex;
-  padding-left: 229px;
-
+  padding-left: 209px;
+  width: 50px;
 }
 
 input {
@@ -152,9 +152,9 @@ input {
   background-image: url('./Assents/onçinha.png') ;
   background-repeat: no-repeat ;
   background-size: cover;
-  width: 1366px;
-  height: 579px;
-  z-index: 10;
+  width: 100%;
+  height: 100%;
+  
 }
 
 .onça p {
@@ -164,7 +164,7 @@ input {
   font-size: 22px;
   text-transform: uppercase;
   color: #B4B4B4;           
-  padding-top: 99px;
+  padding-top: 70px;
 }
 
 .onça h1 {
